@@ -1,8 +1,11 @@
 resource "null_resource" "le" {
+  
   triggers = {
     uuid = uuid()
   }
+  
   provisioner "local-exec" {
-    command = "pwd && ls -la && whoami && sleep 60"
+    command = "pwd && ls -la && whoami && sleep 30"
   }
+  
 }
