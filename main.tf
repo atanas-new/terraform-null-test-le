@@ -5,7 +5,7 @@ resource "null_resource" "le" {
   }
   
   provisioner "local-exec" {
-    command = "pwd && ls -la && whoami && sleep 30"
+    command = "pwd && ls -la && whoami && sleep 10"
   }
   
 }
