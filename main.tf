@@ -9,5 +9,4 @@ resource "null_resource" "le" {
     #command = "pwd && ls -la && whoami && sleep 10"
     #command = "python3 -V; pip3 --version;"
   }
-  
 }
